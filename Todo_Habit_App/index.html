@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Min Todo & Habit App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Min Todo & Habit App</h1>
+
+  <!-- Todo Sektion -->
+  <section>
+    <h2>Todo</h2>
+    <input type="text" id="todo-input" placeholder="Skriv en ny todo...">
+    <button onclick="addTodo()">Lägg till</button>
+    <ul id="todo-list"></ul>
+  </section>
+
+  <!-- Habits Sektion -->
+  <section>
+    <h2>Habits</h2>
+    <input type="text" id="habit-input" placeholder="Skriv en ny habit...">
+    <button onclick="addHabit()">Lägg till</button>
+    <ul id="habit-list"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
